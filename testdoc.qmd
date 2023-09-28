@@ -1,0 +1,20 @@
+---
+title: "my homework"
+format: html
+embed-resources: true
+editor: visual
+---
+
+## Notes
+
+Hello world!
+
+## Some code
+
+```{r}
+2+2 
+
+data(mtcars)
+
+mtcars
+```
