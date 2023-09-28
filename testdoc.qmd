@@ -18,3 +18,15 @@ data(mtcars)
 
 mtcars
 ```
+
+These cars don't get very good gas mileage.
+
+```{r}
+library(tidyverse)
+
+ggplot(mtcars,
+       aes(x = wt,
+           y = mpg )) +
+  geom_point(alpha = .3) +
+  theme_light()
+```
